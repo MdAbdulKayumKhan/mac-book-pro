@@ -29,23 +29,23 @@
                 <div class="row mt-2">
                     <h5>Memoty</h5>
                     <div class="col d-flex gap-4">
-                        <button id="memory-cost-free" type="button" class="btn btn-light">8GB unifield memory</button>
-                        <button id="memory-cost-16GB-180" type="button" class="btn btn-light">16GB unifield memory</button>
+                        <button id="memory-free-cost" type="button" class="btn btn-light">8GB unifield memory</button>
+                        <button id="memory-180-cost" type="button" class="btn btn-light">16GB unifield memory</button>
                     </div>               
                 </div>
                 <div class="row mt-2">
                     <h5>Storage</h5>
                     <div class="col d-flex gap-4">
-                        <button type="button" class="btn btn-light">256GB SSD storage</button>
-                        <button type="button" class="btn btn-light">512GB SSD storage</button>
-                        <button type="button" class="btn btn-light">1TB SSD storage</button>
+                        <button id="ssd-free-cost" type="button" class="btn btn-light">256GB SSD storage</button>
+                        <button id="ssd-100-cost" type="button" class="btn btn-light">512GB SSD storage</button>
+                        <button id="ssd-1tb-cost" type="button" class="btn btn-light">1TB SSD storage</button>
                     </div>               
                 </div>
                 <div class="row mt-2">
                     <h5>Choose your delivery option</h5>
                     <div class="col d-flex gap-4">
-                        <button type="button" class="btn btn-light">Friday, Aug 25 FREE Prime Delivery</button>
-                        <button type="button" class="btn btn-light">Friday, Aug 21 charge Delivery $20 </button>
+                        <button id="delivery-free-cost" type="button" class="btn btn-light">Friday, Aug 25 FREE Prime Delivery</button>
+                        <button id="delivery-20-cost" type="button" class="btn btn-light">Friday, Aug 21 charge Delivery $20 </button>
                     </div>               
                 </div>  
                 <div class="row mt-5 pe-5">
@@ -53,23 +53,23 @@
                         <tbody>
                           <tr>
                             <th scope="row">Best Price</th>
-                            <td>$<span>1299</span></td>                           
+                            <td>$<span id="minimum-total">1299</span></td>                           
                           </tr>
                           <tr>
                             <th scope="row">Extra Memory Cost</th>
-                            <td>$<span id="memory-price">0</span></td>
+                            <td>$<span id="memory-total">0</span></td>
                           </tr>
                           <tr>
                             <th scope="row">Extra Storage Cost</th>
-                            <td>$<span>0</span></td>
+                            <td>$<span id="ssd-total">0</span></td>
                           </tr>
                           <tr>
                             <th scope="row">Delivery charge </th>
-                            <td>$<span>0</span></td>
+                            <td>$<span id="delivery-total">0</span></td>
                           </tr>
                           <tr>
                             <th scope="row">Total Price </th>
-                            <td>$<span id="total-price">1299</span></td>
+                            <td>$<span id="price-total">1299</span></td>
                           </tr>                     
                         </tbody>
                       </table>
